@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>d'Perfume | 會員專區 | Member Area</title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md shadow-sm navbar-light bg-light">
+  <div class="container-lg">
+    <h1>
+      <a class="logo navbar-brand" href="index.html">d'Perfume</a>
+    </h1>
+    <div class="d-md-none ml-auto">
+      <a class="nav-link text-success position-relative" href="#">
+        <span class="material-icons">shopping_cart</span>
+        <span class="navbar__cart__badge badge badge-pill badge-primary font-size-xs font-weight-light">3</span>
+      </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarList"
+      aria-controls="navbarList" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarList">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item active px-3">
+          <a class="nav-link h5 d-flex text-success bg-md-success justify-content-center" href="product.html">
+            <span class="material-icons d-none d-md-block">
+              store
+            </span>
+            Product<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link h5 d-flex text-success justify-content-center" href="login.html">
+            <span class="material-icons d-none d-md-block">person</span>Mypage
+          </a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link h5 d-flex text-success justify-content-center" href="#">
+            <span class="material-icons d-none d-md-block">favorite</span>Wishlist
+          </a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link h5 d-flex text-success justify-content-center" href="#">
+            <span class="material-icons d-none d-md-block">shopping_cart</span>Cart(3)
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+    
+
+  <main>
+    <nav class="bg-secondary">
+        <div class="container d-none d-md-flex" data-aos="zoom-in" data-aos-duration="1000">
+            <ul class="nav product-nav">
+                <li class="nav-item">
+                    <a class="h5 text-light font-weight-normal nav-link mb-0 active" href="#">CHANEL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 text-light font-weight-normal nav-link mb-0" href="#">Jo Malone</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 text-light font-weight-normal nav-link mb-0" href="#">Curology</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 text-light font-weight-normal nav-link mb-0" href="#" tabindex="-1" aria-disabled="true">Dior</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 text-light font-weight-normal nav-link mb-0" href="#">Chloe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 text-light font-weight-normal nav-link mb-0" href="#" tabindex="-1" aria-disabled="true">ZARA</a>
+                </li>
+            </ul>
+        </div>   
+    </nav>
+    <!-- content start -->
+    <section class="container">
+        <ul class="row d-flex flex-column flex-md-row my-13 my-md-24 align-items-start">
+            <!-- 會員中心 -->     
+                <nav class="nav col-12 col-lg-2 d-flex flex-row justify-content-between justify-content-md-start mb-13">
+                    <a class="nav-link active h5 text-success font-weight-medium mb-md-21 d-none d-md-flex pt-0" href="#">會員中心</a>
+                    <a class="nav-link h6 text-success font-weight-medium" href="#">會員資料修改</a>
+                    <a class="nav-link h6 text-success font-weight-medium" href="#">訂單查詢</a>
+                    <a class="nav-link h6 text-success font-weight-medium" href="#">退／換貨申請</a>
+                </nav>
+            <div class="col-12 col-lg-10 d-flex  flex-column-reverse flex-md-row">
+                <!-- 個人資料修改 & 修改密碼 -->
+                <li class="col-12 col-lg-8">
+                    <h6 class="h6 text-dark font-weight-medium border-dark border-bottom pb-2">個人資料修改</h6>
+                    <form>
+                        <!-- 會員帳號 -->
+                        <div class="form-group row">
+                            <label for="staticEmail"
+                                class="h6 text-member col-3 col-lg-3 font-weight-normal col-form-label">會員帳號</label>
+                            <div class="col-9 col-lg-7">
+                                <input type="text" readonly class="h6 text-member font-weight-normal form-control-plaintext"
+                                    id="staticEmail" value="email@example.com">
+                            </div>
+                        </div>
+                        <!-- 會員姓名 -->
+                        <div class="form-group row">
+                            <label for="inputPassword"
+                                class="col-3 col-lg-3 col-form-label h6 text-member font-weight-normal">會員姓名</label>
+                            <div class="col-9 col-lg-7">
+                                <input type="password" class="form-control border-memberl" id="inputPassword">
+                            </div>
+                        </div>
+                        <!-- 會員性別 -->
+                        <div class="form-group row">
+                            <label for="exampleFormControlSelect1"
+                                class="col-3 col-lg-3 col-form-label h6 text-member font-weight-normal">會員性別</label>
+                            <div class="col-9 col-lg-7">
+                                <select class="form-control border-memberl" id="exampleFormControlSelect1">
+                                    <option class="h6 text-member font-weight-normal">男</option>
+                                    <option class="h6 text-member font-weight-normal">女</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- 電子信箱 -->
+                        <div class="form-group row">
+                            <label for="inputPassword"
+                                class="col-3 col-lg-3 col-form-label h6 text-member font-weight-normal">電子信箱</label>
+                            <div class="col-9 col-lg-7">
+                                <input type="password" class="form-control border-memberl" id="inputPassword"
+                                    placeholder="email@example.com">
+                            </div>
+                        </div>
+                        <!-- 手機號碼 -->
+                        <div class="form-group row">
+                            <label for="inputPassword"
+                                class="col-3 col-lg-3 col-form-label h6 text-member font-weight-normal">手機號碼</label>
+                            <div class="col-9 col-lg-7">
+                                <input type="password" class="form-control border-memberl" id="inputPassword">
+                            </div>
+                        </div>
+                        <!-- 聯絡地址 -->
+                        <div class="form-group row">
+                            <label for="exampleFormControlSelect1"
+                                class="col-3 col-lg-3 col-form-label h6 text-member font-weight-normal">聯絡地址</label>
+                            <div class="col-9 col-lg-7">
+                                <select class="form-control border-memberl mb-2" id="exampleFormControlSelect1">
+                                    <option class="h6 text-member font-weight-normal">台灣及離島</option>
+                                    <option class="h6 text-member font-weight-normal">外國</option>
+                                </select>
+                                <div class="d-flex mb-3">
+                                    <div class="col-6 pl-0 pr-1">
+                                        <select class="form-control border-memberl" id="exampleFormControlSelect1">
+                                            <option class="h6 text-member font-weight-normal">基隆市</option>
+                                            <option class="h6 text-member font-weight-normal">宜蘭縣</option>
+                                            <option class="h6 text-member font-weight-normal">臺北市</option>
+                                            <option class="h6 text-member font-weight-normal">新北市</option>
+                                            <option class="h6 text-member font-weight-normal">桃園市</option>
+                                            <option class="h6 text-member font-weight-normal">新竹市</option>
+                                            <option class="h6 text-member font-weight-normal">新竹縣</option>
+                                            <option class="h6 text-member font-weight-normal">苗栗縣</option>
+                                            <option class="h6 text-member font-weight-normal">臺中市</option>
+                                            <option class="h6 text-member font-weight-normal">南投縣</option>
+                                            <option class="h6 text-member font-weight-normal">彰化縣</option>
+                                            <option class="h6 text-member font-weight-normal">雲林縣</option>
+                                            <option class="h6 text-member font-weight-normal">嘉義市</option>
+                                            <option class="h6 text-member font-weight-normal">嘉義縣</option>
+                                            <option class="h6 text-member font-weight-normal">臺南市</option>
+                                            <option class="h6 text-member font-weight-normal">高雄市</option>
+                                            <option class="h6 text-member font-weight-normal">屏東縣</option>
+                                            <option class="h6 text-member font-weight-normal">花蓮縣</option>
+                                            <option class="h6 text-member font-weight-normal">臺東縣</option>
+                                            <option class="h6 text-member font-weight-normal">澎湖縣</option>
+                                            <option class="h6 text-member font-weight-normal">金門縣</option>
+                                            <option class="h6 text-member font-weight-normal">連江縣</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6 pr-0 pl-1">
+                                        <select class="form-control border-memberl" id="exampleFormControlSelect1">
+                                            <option class="h6 text-member font-weight-normal">楠梓區</option>
+                                            <option class="h6 text-member font-weight-normal">左營區</option>
+                                            <option class="h6 text-member font-weight-normal">鼓山區</option>
+                                            <option class="h6 text-member font-weight-normal">三民區</option>
+                                            <option class="h6 text-member font-weight-normal">鹽埕區</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <input type="password" class="form-control border-memberl mb-3" id="inputPassword" placeholder="請輸入地址">
+                                <div class="form-check">
+                                    <input class="form-check-input pr-1 border-memberl" id="inputPassword" type="checkbox"
+                                        value="checkbox" id="defaultCheck1">
+                                    <label class="form-check-label h6 font-weight-normal text-member"
+                                        for="defaultCheck1">我願意收到最新優惠情報</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 配送地址 -->
+                        <div class="form-group row">
+                            <label for="exampleFormControlSelect1"
+                                class="col-3 col-lg-3 col-form-label h6 text-member font-weight-normal">配送地址</label>
+                            <div class="col-9 col-lg-7">
+                                <select class="form-control border-memberl mb-2" id="exampleFormControlSelect1">
+                                    <option class="h6 text-member font-weight-normal">台灣及離島</option>
+                                    <option class="h6 text-member font-weight-normal">外國</option>
+                                </select>
+                                <div class="d-flex mb-3">
+                                    <div class="col-6 pl-0 pr-1">
+                                        <select class="form-control border-memberl" id="exampleFormControlSelect1">
+                                            <option class="h6 text-member font-weight-normal">基隆市</option>
+                                            <option class="h6 text-member font-weight-normal">宜蘭縣</option>
+                                            <option class="h6 text-member font-weight-normal">臺北市</option>
+                                            <option class="h6 text-member font-weight-normal">新北市</option>
+                                            <option class="h6 text-member font-weight-normal">桃園市</option>
+                                            <option class="h6 text-member font-weight-normal">新竹市</option>
+                                            <option class="h6 text-member font-weight-normal">新竹縣</option>
+                                            <option class="h6 text-member font-weight-normal">苗栗縣</option>
+                                            <option class="h6 text-member font-weight-normal">臺中市</option>
+                                            <option class="h6 text-member font-weight-normal">南投縣</option>
+                                            <option class="h6 text-member font-weight-normal">彰化縣</option>
+                                            <option class="h6 text-member font-weight-normal">雲林縣</option>
+                                            <option class="h6 text-member font-weight-normal">嘉義市</option>
+                                            <option class="h6 text-member font-weight-normal">嘉義縣</option>
+                                            <option class="h6 text-member font-weight-normal">臺南市</option>
+                                            <option class="h6 text-member font-weight-normal">高雄市</option>
+                                            <option class="h6 text-member font-weight-normal">屏東縣</option>
+                                            <option class="h6 text-member font-weight-normal">花蓮縣</option>
+                                            <option class="h6 text-member font-weight-normal">臺東縣</option>
+                                            <option class="h6 text-member font-weight-normal">澎湖縣</option>
+                                            <option class="h6 text-member font-weight-normal">金門縣</option>
+                                            <option class="h6 text-member font-weight-normal">連江縣</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6 pr-0 pl-1">
+                                        <select class="form-control border-memberl" id="exampleFormControlSelect1">
+                                            <option class="h6 text-member font-weight-normal">楠梓區</option>
+                                            <option class="h6 text-member font-weight-normal">左營區</option>
+                                            <option class="h6 text-member font-weight-normal">鼓山區</option>
+                                            <option class="h6 text-member font-weight-normal">三民區</option>
+                                            <option class="h6 text-member font-weight-normal">鹽埕區</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <input type="password" class="form-control border-memberl mb-3" id="inputPassword" placeholder="請輸入地址">
+                                <button type="submit" class="h6 font-weight-normal btn btn-primary">確定修改</button>
+                            </div>
+                        </div>
+                    </form>
+                    <h6 class="h6 text-dark font-weight-medium border-dark border-bottom pb-2 mb-4">個人資料修改</h6>
+                    <form>
+                        <!-- 舊密碼 -->
+                        <div class="form-group row">
+                            <label for="inputPassword"
+                                class="col-3 col-lg-3 col-form-label h6 text-member font-weight-normal">舊密碼</label>
+                            <div class="col-9 col-lg-7">
+                                <input type="password" class="form-control border-memberl" id="inputPassword">
+                            </div>
+                        </div>
+                        <!-- 新密碼 -->
+                        <div class="form-group row">
+                            <label for="inputPassword"
+                                class="col-3 col-lg-3 col-form-label h6 text-member font-weight-normal">新密碼</label>
+                            <div class="col-9 col-lg-7">
+                                <input type="password" class="form-control border-memberl" id="inputPassword">
+                            </div>
+                        </div>
+                        <!-- 確認密碼 -->
+                        <div class="form-group row">
+                            <label for="inputPassword"
+                                class="col-3 col-lg-3 col-form-label h6 text-member font-weight-normal">確認密碼</label>
+                            <div class="col-9 col-lg-7">
+                                <input type="password" class="form-control border-memberl mb-3" id="inputPassword">
+                                <button type="submit" class="h6 font-weight-normal btn btn-primary">變更密碼</button>
+                            </div>
+                        </div>
+                    </form>
+                </li>
+                <!-- 會員資料 -->
+                <li class="col-12 col-lg-4 mb-13">
+                    <div class="d-flex align-items-center pb-6"> 
+                        <span class="material-icons">person</span>
+                        <h6 class="h6 font-weight-normal text-member mb-0">會員編碼  T00020080615</h6>
+                    </div>
+                    <ul class="row pb-4">
+                        <li class="h6 text-member font-weight-normal col-3 col-md-4">購物車</li>
+                        <li class="h6 text-member font-weight-normal col-8">56</li>
+                    </ul>
+                    <ul class="row pb-4">
+                        <li class="h6 text-member font-weight-normal col-3 col-md-4">我的收藏</li>
+                        <li class="h6 text-member font-weight-normal col-8">23</li>
+                    </ul>
+                    <ul class="row pb-4">
+                        <li class="h6 text-member font-weight-normal col-3 col-md-4">完成訂單</li>
+                        <li class="h6 text-member font-weight-normal col-8">8</li>
+                    </ul>
+                    <ul class="row pb-4">
+                        <li class="h6 text-member font-weight-normal col-3 col-md-4">會員紅利</li>
+                        <li class="h6 text-member font-weight-normal col-8">2680</li>
+                    </ul>
+                    <ul class="row">
+                        <li class="h6 text-member font-weight-normal col-3 col-md-4">邀請碼</li>
+                        <li class="h6 text-member font-weight-normal col-8">TK2075</li>
+                    </ul>
+                    <div>
+                        <p class="font-size-xs font-weight-normal" style="color: #A5A5A5;">新戶輸入邀請碼即可獲贈紅利點數1000點</p>
+                    </div>
+                </li>
+            </div>
+        </ul>
+    </section>
+</main>
+
+
+  <footer>
+    <nav class="navbar navbar-expand-md shadow-sm navbar-light bg-secondary">
+      <div class="container-lg">
+        <h1>
+          <a class="footer-logo navbar-brand mr-5" href="index.html">d'Perfume</a>
+        </h1>
+        <p class="font-size-sm mb-0 text-light font-weight-normal">© 2020. All Rights Reserved.</p>
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 d-none d-md-flex">
+          <li class="nav-item active px-3">
+            <a class="nav-link h5 d-flex text-light bg-md-success justify-content-center" href="product.html">
+              Product<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link h5 d-flex text-light justify-content-center" href="#">Blog</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link h5 d-flex text-light justify-content-center" href="#">Contact</a>
+          </li>
+        </ul>
+    </nav>
+  </footer>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+                duration: 700,
+                once: true
+            });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

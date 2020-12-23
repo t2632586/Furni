@@ -1,0 +1,118 @@
+---
+title: d'Perfume | CHANEL | Product Introduction
+layout: ./app/layout.ejs
+engine: ejs
+current: product introduction
+---
+<main>
+    <nav class="bg-secondary">
+        <div class="container d-none d-md-flex align-items-center" data-aos="zoom-in" data-aos-duration="1000"> 
+            <ul class="nav product-nav">
+                <li class="nav-item">
+                    <a class="h5 text-light font-weight-normal nav-link mb-0 active" href="#">CHANEL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 text-light font-weight-normal nav-link mb-0" href="#">Jo Malone</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 text-light font-weight-normal nav-link mb-0" href="#">Curology</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 text-light font-weight-normal nav-link mb-0" href="#" tabindex="-1" aria-disabled="true">Dior</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 text-light font-weight-normal nav-link mb-0" href="#">Chloe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 text-light font-weight-normal nav-link mb-0" href="#" tabindex="-1" aria-disabled="true">ZARA</a>
+                </li>
+            </ul>
+        </div>   
+    </nav>
+    <!-- content start -->
+    <ul class="container">
+        <li class="row d-flex flex-column flex-md-row mt-13 mt-md-20">
+            <div class="col-12 col-md-8" data-aos="fade-up">
+                <div class="item_product_info__img mb-21 mb-md-15">
+                    <img src="./assets/images/product1.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-4 card-item" data-aos="fade-left" data-aos-delay="800">
+                <h3 class="h2 text-dark font-weight-bolder">CHANEL N°5</h3>
+                <h4 class="h5 text-dark font-weight-light mb-7 mb-md-7">N°5，女性魅力的極致精髓。散發柔美澄透的乙醛花束香氣。經典傳奇香氛，蘊藏於極簡設計的獨特瓶身。</h4>
+                <p class="h5 text-dark font-weight-light mb-3">NT$4,980</p>
+                <div class="input-group mb-2">
+                    <select class="custom-select" id="inputGroupSelect02">
+                        <option selected value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="9">10</option>
+                    </select>
+                    <div class="input-group-append">
+                        <label type="button" class="input-group-text text-light bg-primary" for="inputGroupSelect02" data-toggle="modal" data-target="#modal-cart">加入購物車</label>
+                    </div>
+                </div>
+                <!-- modal btn -->
+                <a type="button" class="card-item-modal d-flex align-items-center mb-22" data-toggle="modal" data-target="#modal-fav">
+                    <span class="material-icons btn text-primary px-0 d-flex flex-md-row" >favorite
+                    </span>
+                    <p class="h6 trxt-dark mb-0">加入我的收藏</p>
+                </a>
+                <!-- card text -->
+                <div class="card-item__text d-block d-md-none">
+                    <h5 class="h6 font-weight-bold mb-2">商品購買須知</h5>
+                    <p class="h6 font-weight-light mb-5">產品因拍攝關係顏色可能略有差異，實際以廠商出貨為主。<br>
+                    商品情境照為示意用，僅商品主體不包含其他配件，請以規格內容物為主。<br>
+                    D’Perfume 盡可能確保所列商品備貨充足，但偶爾仍會有產品售罄的情況。如您所訂購的商品庫存不足，我們將盡快以電子郵件通知您。任何訂單變動均會在訂單總額與出貨訊息內更新。</p>
+                    <h5 class="h6 font-weight-bold mb-2">退換貨須知</h5>
+                    <p class="h6 font-weight-light mb-22">依《消費者保護法》的規定，於全站購物皆享有商品到貨【七日猶豫期】（含例假日）之權益。<br>
+                    若收到的商品有任何問題，可於猶豫期內申請退貨。</p>
+                </div>
+            </div>
+        </li>
+        <div class="row d-flex flex-column mb-22 mb-md-11">
+            <div class="col-md-8">
+                <div class="d-flex flex-column flex-md-row mb-md-15" >
+                    <a class="item_product_info d-flex flex-column mr-md-4" href="#" data-aos="fade-up">
+                        <div class="item_product_info__img mb-4">
+                            <img class="mb-14" src="./assets/images/product2.jpg" alt="">
+                        </div>
+                    </a>
+                    <a class="item_product_info d-flex flex-column ml-md-4" href="#" data-aos="fade-up">
+                        <div class="item_product_info__img mb-4">
+                            <img class="mb-14" src="./assets/images/product3.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <a class="item_product_info d-flex flex-column" href="#" data-aos="fade-up">
+                    <div class="item_product_info__img_last">
+                        <img class="mb-14" src="./assets/images/product1.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </ul>
+    <!-- modal-fav -->
+    <div class="modal fade" id="modal-fav" tabindex="-1" role="dialog" aria-labelledby="modal-fav-Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content border-0 d-flex align-items-center justify-content-center px-0">
+                <h6 class="h5 text-primary font-weight-bold modal-body">已加入我的收藏</h6>
+            </div>
+        </div>
+    </div>
+    <!-- modal-cart -->
+    <div class="modal fade" id="modal-cart" tabindex="-1" role="dialog" aria-labelledby="modal-fav-Title"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content border-0 d-flex align-items-center justify-content-center px-0">
+                <h6 class="h5 text-primary font-weight-bold modal-body">已加入購物車</h6>
+            </div>
+        </div>
+    </div>
+</main>

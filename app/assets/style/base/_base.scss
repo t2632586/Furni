@@ -1,0 +1,19 @@
+body {
+    line-height: 1.5;
+}
+img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+a {
+    transition: all 350ms;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+ul {
+    list-style: none;
+    padding: 0;
+}

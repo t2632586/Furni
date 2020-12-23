@@ -1,0 +1,21 @@
+.navbar {
+    h1 {
+        text-align: left;
+    }
+    .logo {
+        background-image: url(../images/d’Perfume@2x.png);
+        width: 128px;
+        height: 38px;
+        display: block;
+        text-indent: 101%;
+        overflow: hidden;
+        white-space: nowrap;
+        background-size: contain;
+    }
+    .navbar__cart__badge {
+        position: absolute;
+        padding: 2px 8px;
+        top: 4px;
+        right: 5px;
+    }
+}

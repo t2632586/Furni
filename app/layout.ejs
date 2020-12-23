@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md shadow-sm navbar-light bg-light">
+  <div class="container-lg">
+    <h1>
+      <a class="logo navbar-brand" href="index.html">d'Perfume</a>
+    </h1>
+    <div class="d-md-none ml-auto">
+      <a class="nav-link text-success position-relative" href="#">
+        <span class="material-icons">shopping_cart</span>
+        <span class="navbar__cart__badge badge badge-pill badge-primary font-size-xs font-weight-light">3</span>
+      </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarList"
+      aria-controls="navbarList" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarList">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item active px-3">
+          <a class="nav-link h5 d-flex text-success bg-md-success justify-content-center" href="product.html">
+            <span class="material-icons d-none d-md-block">
+              store
+            </span>
+            Product<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link h5 d-flex text-success justify-content-center" href="login.html">
+            <span class="material-icons d-none d-md-block">person</span>log in
+          </a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link h5 d-flex text-success justify-content-center" href="#">
+            <span class="material-icons d-none d-md-block">favorite</span>Wishlist
+          </a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link h5 d-flex text-success justify-content-center" href="#">
+            <span class="material-icons d-none d-md-block">shopping_cart</span>Cart(3)
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+    
+
+  <%- contents %>
+
+  <footer>
+    <nav class="navbar navbar-expand-md shadow-sm navbar-light bg-secondary">
+      <div class="container-lg">
+        <h1>
+          <a class="footer-logo navbar-brand mr-5" href="index.html">d'Perfume</a>
+        </h1>
+        <p class="font-size-sm mb-0 text-light font-weight-normal">© 2020. All Rights Reserved.</p>
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 d-none d-md-flex">
+          <li class="nav-item active px-3">
+            <a class="nav-link h5 font-weight-normal d-flex text-light bg-md-success justify-content-center" href="product.html">
+              Product<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link h5 font-weight-normal d-flex text-light justify-content-center" href="#">Blog</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link h5 font-weight-normal d-flex text-light justify-content-center" href="#">Contact</a>
+          </li>
+        </ul>
+    </nav>
+  </footer>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      delay: 300,
+      duration: 1000,
+      once: true,
+      });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
