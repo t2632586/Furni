@@ -3,7 +3,8 @@
         text-align: center;
         padding-top: 12px;
         border-bottom: 1px solid transition;
-        &::before{
+        color: $success;
+        &::before {
             content: '';
             position: absolute;
             border-bottom: 1px solid white;
@@ -18,4 +19,25 @@
             opacity: 1;
             transition: 0.5s;
         }
-    }
+}
+.navbar-collapse {
+    .navbar-nav {
+        .nav-item {
+            @include media-breakpoint-down(sm) {
+                background-color: #707070;
+            }
+            .nav-link {
+                color: $success;
+                &:hover {
+                    color:$primary;
+                }
+                @include media-breakpoint-down(sm) {
+                    color: $white;
+                    &:hover {
+                    color: $white;
+                }
+                }
+            }
+        }
+    } 
+}
